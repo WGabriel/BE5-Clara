@@ -133,7 +133,7 @@ namespace Microsoft.BotBuilderSamples
                     Prompt = new Activity
                     {
                         Type = ActivityTypes.Message,
-                        Text = $"Hello {greetingState.Name}, what city do you live innnnnnnnnnnnnnnnn?",
+                        Text = $"Hello {greetingState.Name}, what city do you live in?",
                     },
                 };
                 return await stepContext.PromptAsync(CityPrompt, opts);
